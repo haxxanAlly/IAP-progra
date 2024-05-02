@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(3.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+    
+    
+    
+}
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: transparent 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 6cm;
+    height: 9cm;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #042744;
+}
+input[type="submit"] {
+    background-color: #073d09;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover {
+    background-color: #042744;
+}
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ img
+{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 3cm;
+    margin-left: 2.2cm;
+    border: 3px solid  #042744;
+    
+}
+
+p
+{
+    color: aliceblue;
+}
+
+:placeholder-shown
+{
+    text-align: center;
+}
+a 
+{
+    color: black;
+    text-decoration: none;
+
+}
+a:hover
+{
+    background-color: #042744;
+    border-radius: 5px;
+}
+
